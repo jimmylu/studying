@@ -2,7 +2,7 @@
 
 ##常用命令
 
-`docker images ` 现实docker镜像列表
+`docker images ` 显示docker镜像列表
 ---------------
 ```bash
 Usage:	docker images [OPTIONS] [REPOSITORY[:TAG]]
