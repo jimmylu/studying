@@ -39,9 +39,11 @@ Options:
 
 ```
 
-**样例**<br/>
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
-8aacc032e6fd        mysql               "docker-entrypoint..."   5 minutes ago       Up 5 minutes        0.0.0.0:3306->3306/tcp   iddd-mysql
+[**样例**]<br/>
+
+CONTAINER ID|IMAGE|COMMAND|CREATED|STATUS|PORTS|NAMES
+-------------|-----|-------|-------|------|-----|-----
+8aacc032e6fd|mysql|"docker-entrypoint..."|5 minutes ago|Up 5 minutes|0.0.0.0:3306->3306/tcp|iddd-mysql
 
 
 
