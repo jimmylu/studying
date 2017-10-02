@@ -19,7 +19,7 @@ Options:
   -q, --quiet           Only show numeric IDs
 ```
 
-·docker ps` 显示容器列表
+`docker ps` 显示容器列表
 ----------
 ```bash
 Usage:	docker ps [OPTIONS]
@@ -38,3 +38,10 @@ Options:
   -s, --size            Display total file sizes
 
 ```
+
+**样例**<br/>
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                    NAMES
+8aacc032e6fd        mysql               "docker-entrypoint..."   5 minutes ago       Up 5 minutes        0.0.0.0:3306->3306/tcp   iddd-mysql
+
+
+
