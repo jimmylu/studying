@@ -20,7 +20,7 @@ Options:
 ```
 [**样例**]<br/>
 REPOSITORY|          TAG|                 IMAGE ID|            CREATED|             SIZE
-----------|------|-------|-------|--------
+----------|-------------|-------------------------|-------------------|--------
 mysql|               latest|              b4e78b89bcf3|        13 days ago|         412MB
 hello-world|         latest |             693bce725149|        16 months ago|       967B
 learn/tutorial|      latest|              a7876479f1aa |       4 years ago|         128MB
