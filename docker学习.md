@@ -52,5 +52,8 @@ CONTAINER ID|IMAGE|COMMAND|CREATED|STATUS|PORTS|NAMES
 -------------|-----|-------|-------|------|-----|-----
 8aacc032e6fd|mysql|"docker-entrypoint..."|5 minutes ago|Up 5 minutes|0.0.0.0:3306->3306/tcp|iddd-mysql
 
-
+`docker exec` 进入容器内部执行命令
+------
+[**样例**]<br/>
+```docker exec -it 8952a98cf7b9 bash```  进入容器id为8952a98cf7b9的容器内部执行bash命令，进入命令行操作
 
